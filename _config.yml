@@ -3,7 +3,7 @@ title: "Paper Notes"
 description: "我的论文阅读笔记"
 author: "Your Name"
 url: "" # 部署后填写，如 https://yourusername.github.io
-baseurl: "/paper-notes" # 仓库名称，如果仓库名是 yourusername.github.io 则留空
+baseurl: "/Paper-Notes" # 仓库名称，如果仓库名是 yourusername.github.io 则留空
 
 # Jekyll 配置
 markdown: kramdown
