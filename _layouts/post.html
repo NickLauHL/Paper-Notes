@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<article class="paper-article">
+  <header class="article-header">
+    <h1 class="article-title">{{ page.title }}</h1>
+    
+    <div class="article-meta">
+      <time class="article-date">{{ page.date | date: "%Y年%m月%d日" }}</time>
+      
+      {% if page.paper_info %}
+      <div class="paper-info">
+        {% if page.paper_info.authors %}
+        <div class="info-item">
+          <span class="info-label">作者</span>
+          <span class="info-value">{{ page.paper_info.authors }}</span>
+        </div>
+        {% endif %}
+        
+        {% if page.paper_info.venue %}
+        <div class="info-item">
+          <span class="info-label">发表于</span>
+          <span class="info-value">{{ page.paper_info.venue }}</span>
+        </div>
+        {% endif %}
+        
+        {% if page.paper_info.year %}
+        <div class="info-item">
+          <span class="info-label">年份</span>
+          <span class="info-value">{{ page.paper_info.year }}</span>
+        </div>
+        {% endif %}
+        
+        {% if page.paper_info.link %}
+        <div class="info-item">
+          <span class="info-label">链接</span>
+          <a href="{{ page.paper_info.link }}" target="_blank" class="paper-link">原文地址 →</a>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+    
+    <div class="article-taxonomy">
+      {% if page.categories.size > 0 %}
+      <div class="taxonomy-group">
+        <span class="taxonomy-label">分类：</span>
+        {% for category in page.categories %}
+        <a href="{{ '/categories/' | append: category | relative_url }}" class="category-tag">{{ category }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+      
+      {% if page.tags.size > 0 %}
+      <div class="taxonomy-group">
+        <span class="taxonomy-label">标签：</span>
+        {% for tag in page.tags %}
+        <a href="{{ '/tags/' | append: tag | relative_url }}" class="tag-item">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+  
+  <div class="article-content">
+    {{ content }}
+  </div>
+  
+  <footer class="article-footer">
+    <nav class="post-navigation">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="nav-prev">
+        <span class="nav-label">← 上一篇</span>
+        <span class="nav-title">{{ page.previous.title }}</span>
+      </a>
+      {% endif %}
+      
+      {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="nav-next">
+        <span class="nav-label">下一篇 →</span>
+        <span class="nav-title">{{ page.next.title }}</span>
+      </a>
+      {% endif %}
+    </nav>
+  </footer>
+</article>

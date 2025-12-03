@@ -1,0 +1,53 @@
+---
+layout: default
+title: 标签
+permalink: /tags/
+---
+
+<header class="page-header">
+  <h1 class="page-title">标签</h1>
+  <p class="page-subtitle">按关键词浏览论文笔记</p>
+</header>
+
+{% assign tags = site.tags | sort %}
+
+{% if tags.size > 0 %}
+<nav class="taxonomy-list">
+  {% for tag in tags %}
+  <a href="#{{ tag[0] | slugify }}" class="taxonomy-item">
+    {{ tag[0] }}
+    <span class="taxonomy-count">{{ tag[1].size }}</span>
+  </a>
+  {% endfor %}
+</nav>
+
+{% for tag in tags %}
+<section class="taxonomy-section" id="{{ tag[0] | slugify }}">
+  <h2 class="taxonomy-section-title">{{ tag[0] }}</h2>
+  <ul class="post-list">
+    {% for post in tag[1] %}
+    <li class="post-item">
+      <a href="{{ post.url | relative_url }}" class="post-link">
+        <h3 class="post-title">{{ post.title }}</h3>
+        <div class="post-meta">
+          <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+          {% if post.categories.size > 0 %}
+          <div class="post-tags">
+            {% for category in post.categories %}
+            <span class="category-tag">{{ category }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+{% else %}
+<div class="no-results">
+  <p>还没有标签</p>
+</div>
+{% endif %}

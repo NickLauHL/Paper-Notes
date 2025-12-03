@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-logo">
+        <span class="logo-icon">📚</span>
+        <span class="logo-text">{{ site.title }}</span>
+      </a>
+      
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">首页</a>
+        <a href="{{ '/categories/' | relative_url }}" class="nav-link {% if page.url contains '/categories' %}active{% endif %}">分类</a>
+        <a href="{{ '/tags/' | relative_url }}" class="nav-link {% if page.url contains '/tags' %}active{% endif %}">标签</a>
+        <a href="{{ '/search/' | relative_url }}" class="nav-link {% if page.url contains '/search' %}active{% endif %}">搜索</a>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('.site-nav').classList.toggle('open');
+    this.classList.toggle('active');
+  });
+</script>

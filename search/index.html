@@ -1,0 +1,31 @@
+---
+layout: default
+title: 搜索
+permalink: /search/
+---
+
+<header class="page-header">
+  <h1 class="page-title">搜索</h1>
+  <p class="page-subtitle">搜索论文笔记</p>
+</header>
+
+<div class="search-container">
+  <div class="search-input-wrapper">
+    <span class="search-icon">🔍</span>
+    <input 
+      type="text" 
+      id="search-input" 
+      class="search-input" 
+      placeholder="输入关键词搜索论文、标签或分类..."
+      autocomplete="off"
+    >
+  </div>
+</div>
+
+<div id="search-results" class="search-results">
+  <p class="no-results">请输入关键词开始搜索</p>
+</div>
+
+<script>
+  window.searchDataUrl = '{{ "/search.json" | relative_url }}';
+</script>

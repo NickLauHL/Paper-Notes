@@ -1,0 +1,24 @@
+# 网站基本信息（请修改为你自己的）
+title: "Paper Notes"
+description: "我的论文阅读笔记"
+author: "Your Name"
+url: "" # 部署后填写，如 https://yourusername.github.io
+baseurl: "/paper-notes" # 仓库名称，如果仓库名是 yourusername.github.io 则留空
+
+# Jekyll 配置
+markdown: kramdown
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+# 构建配置
+exclude:
+  - README.md
+  - LICENSE
+
+# 集合配置
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
