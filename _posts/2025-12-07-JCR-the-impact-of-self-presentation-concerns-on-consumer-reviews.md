@@ -2,7 +2,7 @@
 title: "Starting Positive: The Impact of Self-Presentation Concerns on Consumer Reviews"
 date: 2025-12-07
 categories: [Consumer Reviews]
-tags: [Review, Impression Management,Yelp ]
+tags: [Trend In Ratings At The Reviewer Level, Impression Management,Yelp, Choice set design (A binary choice set vs. trinary choice set) ]
 paper_info:
   authors: "Elisa Solinas.et.al"
   venue: "Journal of Consumer Research"
@@ -64,6 +64,17 @@ For **competence** we will ask: how competent/skillful/capable they think they w
 
 For **negativity** we will ask: how negative/harsh/overtly critical they think they will appear.： 1 = “Not at all” to 7 = “Quite a lot”,
 
+ <span style="color: red; font-weight: bold">Moderators</span>
+
+**Allow reviewers to post anonymous (unassociated with one’s profile)**
+
+In the Control condition, participants were asked to choose between “Posting the review under their profile” and “Not posting the review” (i.e., a binary choice). In the Anonymous condition, reviewers were informed of the availability of an anonymous posting option. Participants were asked to choose between “Posting the review under their profile,” “Not posting the review,” and “Posting the review anonymously” (i.e., a trinary choice). 
+
+Using a multinomial probit model.
+
+**Prompting them to write something positive about the experience may attenuate this fear while not changing their actual star-rating** 
+
+In the Control condition, participants described a negative experience in response to a single open-ended question; In the Prompt condition, what differed was that, when describing the negative dining experience, participants answered two separate open-ended questions, one describing the negative experience and the other prompting them to mention one positive aspect of the experience. 
 
 ## Key Points in Scenario Lab Experiment
 
@@ -76,12 +87,3 @@ For **negativity** we will ask: how negative/harsh/overtly critical they think t
 ## Findings
 
 **[1]** reviewers’ reluctance to post negative reviews early (i.e., earlier versus later) in their review history can be explained, at least in part, by self-presentation concerns.This reluctance does not appear to depend on how many total reviews the reviewer has accumulated per se, but rather **how many reviews the reviewer has shared with a particular audience**. 
-
-**[2]** Shortly after graduation, the last-in-class effect is primarily driven by the <span style="color: red; font-weight: bold">adverse</span> impact of a lower relative rank in the first class (versus the higher rank in the second class), which <span style="color: red; font-weight: bold">outweighs the positive effect </span> of a higher peer performance.
-
-**[3]** Five years after the expected graduation, though, the negative ranking effect becomes smaller and insignificant, while the positive effect of peer performance persists.
-
-**[4]** 
-
-**[5]** We show that work experience and access to a network of high-performing peers can offset the negative effect of a lower rank. However, these factors tend to favor men more than women. 
-
