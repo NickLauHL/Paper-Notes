@@ -43,19 +43,21 @@ Method: Fixed-effect ordered logistic regression.
 Having joined a university-specific online rating community... set up their profile and created a distinct username for their profile... recall either a positive or negative restaurant experience that had occurred in the neighborhood surrounding the university...respondents were asked to imagine they had already posted either two (Few) or 22 (Many) reviews on the platform (Number)...respondents were shown an image of their profile indicating the number of prior reviews. Respondents reported both the Likelihood that they would post a review about the recalled experience (1 = “Extremely unlikely” to 7 = “Extremely likely”), and the Rating they would assign to it, ranging from 1 to 5 stars.
 
  <span style="color: red; font-weight: bold">Mediator</span>
+ 
 Scenario1:Participants indicated the extent to which they believed having posted the review would influence whether others perceive them as warm (Warmth) and competent (Competence) **participants have done yet**:
 
 Scenario2: and the extent to which they expected to be perceived as warm (Warmth) if they were to post the review **after participants report their likelihood**：
 
 3 potential self-presentation concerns: desire to appear warm, desire to appear competent, and reluctance to appear as a negative person. 
-For warmth: how warm/friendly/nice they think they will appear. 
-For competence we will ask: how competent/skillful/capable they think they will appear. 
-For negativity we will ask: how negative/harsh/overtly critical they think they will appear.
+For **warmth**: how warm/friendly/nice they think they will appear. 
+For **competence** we will ask: how competent/skillful/capable they think they will appear. 
+For **negativity** we will ask: how negative/harsh/overtly critical they think they will appear.
 
 
 ## Key Points in Scenario Lab Experiment
 
-**set up their profile**. 
+**set up their profile**
+
 **A preview of their profile that indicated they had already posted either one (Few condition) or 18 (Many condition) review(s)**
 
 
