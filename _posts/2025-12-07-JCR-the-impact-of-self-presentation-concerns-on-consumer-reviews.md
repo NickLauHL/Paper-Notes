@@ -45,6 +45,12 @@ Method: Fixed-effect ordered logistic regression.
 
 Having joined a university-specific online rating community... set up their profile and created a distinct username for their profile... **recall either a positive or negative restaurant experience** that had occurred in the neighborhood surrounding the university...respondents were asked to imagine they had already posted either **two (Few) or 22 (Many) reviews** on the platform (Number)...respondents were shown an image of their profile indicating the number of prior reviews. Respondents reported both the **Likelihood that they would post a review about the recalled experience (1 = “Extremely unlikely” to 7 = “Extremely likely”)**, and the Rating they would assign to it, ranging from 1 to 5 stars.
 
+<span style="color: red; font-weight: bold"> Scenario Experiment: one of 3 conditions: few reviews vs. many reviews vs. many reviews/different platform</span>
+
+**In a third (Many-different platform) condition**, respondents were told they had completed 17 reviews on Yum, but had recently moved to a new city and joined a new review platform called JustEat where they had posted one review thus far. Their focal review would therefore be their 19th overall, but only their 2nd on JustEat.
+
+Reviewers’ reluctance to post negative reviews early in their review history can be explained, at least in part, by self-presentation concerns. **This reluctance does not appear to depend on how many total reviews the reviewer has accumulated per se, but rather how many reviews the reviewer has shared with a particular audience**. This is consistent with self-presentation concerns influencing which ratings are shared. Indeed, when a reviewer who has already posted numerous reviews switches platforms, we observe a renewed initial reluctance to post a negative review. 
+
  <span style="color: red; font-weight: bold">Mediator</span>
  
 Scenario1:Participants indicated the extent to which they believed having posted the review would influence whether others perceive them as warm (Warmth) and competent (Competence) **participants have done yet**:
@@ -61,7 +67,7 @@ For **negativity** we will ask: how negative/harsh/overtly critical they think t
 
 ## Key Points in Scenario Lab Experiment
 
-**set up their profile**
+**Set up their profile**
 
 **A preview of their profile that indicated they had already posted either one (Few condition) or 18 (Many condition) review(s)**
 
