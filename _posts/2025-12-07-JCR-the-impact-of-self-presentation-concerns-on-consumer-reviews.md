@@ -2,7 +2,7 @@
 title: "Starting Positive: The Impact of Self-Presentation Concerns on Consumer Reviews"
 date: 2025-12-07
 categories: [Consumer Reviews]
-tags: [Trend In Ratings At The Reviewer Level, Impression Management,Yelp, Choice set design (A binary choice set vs. trinary choice set) ]
+tags: [Trend In Ratings At The Reviewer Level, Impression Management,Yelp, Choice set design (A binary choice set vs. trinary choice set),Stereotype Content Model]
 paper_info:
   authors: "Elisa Solinas.et.al"
   venue: "Journal of Consumer Research"
