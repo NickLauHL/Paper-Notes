@@ -30,7 +30,7 @@ A key factor that motivates protective self-presentation is the multiple audienc
 
 ## Emperical
 
-<span style="color: red; font-weight: bold">Yelp Academic dataset webpage (https://www.yelp.com/dataset)</span>
+<span style="color: red; font-weight: bold"> Archival data analysis (https://www.yelp.com/dataset)</span>
 
 IV: **Number of Previous Ratings**, is the number of ratings posted by a specific reviewer before the focal rating. [**a time-unstructured sequence**]
 DV: **Rating**, is an ordinal variable with five levels (1-5 stars) and is the criterion variable in our estimation. 
@@ -38,15 +38,15 @@ Control:  **time-invariant** covariates at the reviewer level using a fixed effe
           **time-varying** covariates: **Days Since First**, which, for each focal rating, accounts for the number of days elapsed since the reviewer’s first review.
 Method: Fixed-effect ordered logistic regression.
 
- <span style="color: red; font-weight: bold">2 (Valence: Positive vs. Negative) x 2 (Number of Previous Ratings: Few vs. many)</span>
- 
+<span style="color: red; font-weight: bold"> Scenario Experiment 2 (Valence: Positive vs. Negative) x 2 (Number of Previous Ratings: Few vs. many)</span>
+
 Having joined a university-specific online rating community... set up their profile and created a distinct username for their profile... recall either a positive or negative restaurant experience that had occurred in the neighborhood surrounding the university...respondents were asked to imagine they had already posted either two (Few) or 22 (Many) reviews on the platform (Number)...respondents were shown an image of their profile indicating the number of prior reviews. Respondents reported both the Likelihood that they would post a review about the recalled experience (1 = “Extremely unlikely” to 7 = “Extremely likely”), and the Rating they would assign to it, ranging from 1 to 5 stars.
 
  <span style="color: red; font-weight: bold">Mediator</span>
  
 Scenario1:Participants indicated the extent to which they believed having posted the review would influence whether others perceive them as warm (Warmth) and competent (Competence) **participants have done yet**:
 
-Scenario2: and the extent to which they expected to be perceived as warm (Warmth) if they were to post the review **after participants report their likelihood**：
+Scenario2: and the extent to which they expected to be perceived as warm (Warmth) if they were to post the review **after participants report their likelihood**： 1 = “Not at all” to 7 = “Quite a lot”,
 
 3 potential self-presentation concerns: desire to appear warm, desire to appear competent, and reluctance to appear as a negative person. 
 For **warmth**: how warm/friendly/nice they think they will appear. 
