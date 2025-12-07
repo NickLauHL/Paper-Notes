@@ -26,6 +26,11 @@ Whether online ratings are a dispassionate source of information. In this regard
 
 A key factor that motivates protective self-presentation is the multiple audience problem (Leary 1995), communicating with different audiences simultaneously. One well-known protective self-presentation strategy involves limiting what one says publicly to reduce the risk of negative evaluations from others.
 
+<span style="color: red; font-weight: bold">Stereotype Content Model</span>
+
+Stereotype Content Model, which explains how people tend to perceive and evaluate others, the other fundamental dimension of social judgment, warmth, is also important to consumers and
+normally judged by others **before** competence. People are concerned with conveying warmth before worrying about being seen as competent.
+
 
 
 ## Emperical
@@ -53,11 +58,12 @@ Reviewers’ reluctance to post negative reviews early in their review history c
 
  <span style="color: red; font-weight: bold">Mediator</span>
  
-Scenario1:Participants indicated the extent to which they believed having posted the review would influence whether others perceive them as warm (Warmth) and competent (Competence) **participants have done yet**:
+Scenario1:Participants indicated the extent to which they believed having posted the review would influence whether others perceive them as warm (Warmth) and competent (Competence) **participants have done yet**
 
 Scenario2: and the extent to which they expected to be perceived as warm (Warmth) if they were to post the review **after participants report their likelihood**
 
 3 potential self-presentation concerns: desire to appear warm, desire to appear competent, and reluctance to appear as a negative person. 
+
 For **warmth**: how warm/friendly/nice they think they will appear. ： 1 = “Not at all” to 7 = “Quite a lot”,
 
 For **competence** we will ask: how competent/skillful/capable they think they will appear. ： 1 = “Not at all” to 7 = “Quite a lot”,
