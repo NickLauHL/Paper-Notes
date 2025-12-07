@@ -1,4 +1,4 @@
-// 全文搜索功能
+// 全文搜索功能 - 无限制显示所有匹配
 (function() {
   'use strict';
   
@@ -21,7 +21,36 @@
         console.error('加载搜索数据失败:', error);
       });
     
-    // 搜索函数 - 搜索所有内容
+    // 查找所有匹配位置 - 无限制
+    function findAllMatches(text, query) {
+      const matches = [];
+      if (!text || !query) return matches;
+      
+      const lowerText = text.toLowerCase();
+      const lowerQuery = query.toLowerCase();
+      let startIndex = 0;
+      
+      while (true) {
+        const index = lowerText.indexOf(lowerQuery, startIndex);
+        if (index === -1) break;
+        
+        // 提取上下文
+        const contextStart = Math.max(0, index - 40);
+        const contextEnd = Math.min(text.length, index + query.length + 60);
+        let snippet = text.substring(contextStart, contextEnd);
+        if (contextStart > 0) snippet = '...' + snippet;
+        if (contextEnd < text.length) snippet = snippet + '...';
+        
+        matches.push(snippet);
+        startIndex = index + 1;
+        
+        // 无限制，显示所有匹配
+      }
+      
+      return matches;
+    }
+    
+    // 搜索函数 - 无限制搜索所有内容
     function search(query) {
       if (!query || query.length < 1) {
         searchResults.innerHTML = '<p class="no-results">请输入关键词开始搜索</p>';
@@ -32,35 +61,26 @@
       const results = [];
       
       posts.forEach(post => {
-        let matches = [];
+        let allMatches = [];
         
         // 搜索标题
         if (post.title && post.title.toLowerCase().includes(lowerQuery)) {
-          matches.push({type: '标题', text: post.title});
+          allMatches.push({type: '标题', text: post.title});
         }
         
-        // 搜索完整正文内容
-        if (post.fullContent && post.fullContent.toLowerCase().includes(lowerQuery)) {
-          // 找到匹配位置，提取上下文
-          const content = post.fullContent;
-          const lowerContent = content.toLowerCase();
-          const index = lowerContent.indexOf(lowerQuery);
-          
-          if (index !== -1) {
-            const start = Math.max(0, index - 30);
-            const end = Math.min(content.length, index + query.length + 50);
-            let snippet = content.substring(start, end);
-            if (start > 0) snippet = '...' + snippet;
-            if (end < content.length) snippet = snippet + '...';
-            matches.push({type: '正文', text: snippet});
-          }
+        // 搜索完整正文 - 找所有匹配，无限制
+        if (post.fullContent) {
+          const contentMatches = findAllMatches(post.fullContent, query);
+          contentMatches.forEach(match => {
+            allMatches.push({type: '正文', text: match});
+          });
         }
         
         // 搜索分类
         if (post.categories) {
           post.categories.forEach(cat => {
             if (cat.toLowerCase().includes(lowerQuery)) {
-              matches.push({type: '分类', text: cat});
+              allMatches.push({type: '分类', text: cat});
             }
           });
         }
@@ -69,15 +89,17 @@
         if (post.tags) {
           post.tags.forEach(tag => {
             if (tag.toLowerCase().includes(lowerQuery)) {
-              matches.push({type: '标签', text: tag});
+              allMatches.push({type: '标签', text: tag});
             }
           });
         }
         
-        if (matches.length > 0) {
+        // 只要有匹配就加入结果，无限制
+        if (allMatches.length > 0) {
           results.push({
             post: post,
-            matches: matches
+            matches: allMatches,
+            matchCount: allMatches.length
           });
         }
       });
@@ -85,28 +107,36 @@
       displayResults(results, query);
     }
     
-    // 显示结果
+    // 显示结果 - 全部显示，无限制
     function displayResults(results, query) {
       if (results.length === 0) {
         searchResults.innerHTML = '<p class="no-results">未找到与 "' + escapeHtml(query) + '" 相关的内容</p>';
         return;
       }
       
-      let html = '<p class="search-result-count">找到 ' + results.length + ' 条结果</p>';
+      // 计算总匹配数
+      let totalMatches = 0;
+      results.forEach(r => totalMatches += r.matchCount);
+      
+      let html = '<p class="search-result-count">在 ' + results.length + ' 篇文章中找到 ' + totalMatches + ' 处匹配</p>';
       html += '<ul class="post-list">';
       
+      // 显示所有结果，无限制
       results.forEach(function(result) {
         const post = result.post;
         const matches = result.matches;
         
-        html += '<li class="post-item">';
+        html += '<li class="post-item" style="margin-bottom: 20px;">';
         html += '<a href="' + post.url + '" class="post-link">';
-        html += '<h3 class="post-title">' + highlightText(post.title, query) + '</h3>';
+        html += '<h3 class="post-title">' + highlightText(post.title, query) + ' <span style="font-size: 14px; color: #888;">(' + matches.length + ' 处匹配)</span></h3>';
         
-        // 显示匹配内容
-        html += '<div class="search-matches">';
-        matches.forEach(function(match) {
-          html += '<p class="match-item"><span class="match-type">[' + match.type + ']</span> ' + highlightText(match.text, query) + '</p>';
+        // 显示所有匹配内容，无限制
+        html += '<div class="search-matches" style="margin: 10px 0;">';
+        matches.forEach(function(match, index) {
+          html += '<p style="margin: 5px 0; padding: 8px; background: #f8f9fa; border-left: 3px solid #3182ce; border-radius: 4px; font-size: 14px;">';
+          html += '<span style="color: #805ad5; font-weight: bold; margin-right: 8px;">[' + match.type + ']</span>';
+          html += highlightText(match.text, query);
+          html += '</p>';
         });
         html += '</div>';
         
@@ -114,6 +144,9 @@
         html += '<span class="post-date">' + post.date + '</span>';
         if (post.categories && post.categories.length > 0) {
           html += ' <span class="category-tag">' + post.categories.join(', ') + '</span>';
+        }
+        if (post.tags && post.tags.length > 0) {
+          html += ' <span style="color: #3182ce;">' + post.tags.join(', ') + '</span>';
         }
         html += '</div>';
         html += '</a></li>';
@@ -128,7 +161,7 @@
       if (!text) return '';
       const escaped = escapeHtml(text);
       const regex = new RegExp('(' + escapeRegExp(query) + ')', 'gi');
-      return escaped.replace(regex, '<mark>$1</mark>');
+      return escaped.replace(regex, '<mark style="background: #fff59d; padding: 1px 2px;">$1</mark>');
     }
     
     // 转义 HTML
