@@ -86,4 +86,6 @@ In the Control condition, participants described a negative experience in respon
 
 ## Findings
 
-**[1]** reviewers’ reluctance to post negative reviews early (i.e., earlier versus later) in their review history can be explained, at least in part, by self-presentation concerns.This reluctance does not appear to depend on how many total reviews the reviewer has accumulated per se, but rather **how many reviews the reviewer has shared with a particular audience**. 
+**[1]** reviewers who are relatively new to an online review site, and who expect to keep using the site in the future, to care about how other platform users view them.
+
+Reviewers’ reluctance to post negative reviews early (i.e., earlier versus later) in their review history can be explained, at least in part, by self-presentation concerns.This reluctance does not appear to depend on how many total reviews the reviewer has accumulated per se, but rather **how many reviews the reviewer has shared with a particular audience**. 
