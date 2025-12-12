@@ -8,6 +8,7 @@
       
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">首页</a>
+        <a href="/Paper-Notes/books/" class="nav-link {% if page.url contains '/books' %}active{% endif %}">读书笔记</a>
         <a href="{{ '/categories/' | relative_url }}" class="nav-link {% if page.url contains '/categories' %}active{% endif %}">分类</a>
         <a href="{{ '/tags/' | relative_url }}" class="nav-link {% if page.url contains '/tags' %}active{% endif %}">标签</a>
         <a href="{{ '/search/' | relative_url }}" class="nav-link {% if page.url contains '/search' %}active{% endif %}">搜索</a>
