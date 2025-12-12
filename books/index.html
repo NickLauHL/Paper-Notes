@@ -1,0 +1,38 @@
+---
+layout: default
+title: 读书笔记
+permalink: /books/
+---
+
+<header class="page-header">
+  <h1 class="page-title">读书笔记</h1>
+  <p class="page-subtitle">阅读与思考</p>
+</header>
+
+{% assign book_posts = site.posts | where_exp: "post", "post.categories contains '读书笔记'" %}
+
+{% if book_posts.size > 0 %}
+<ul class="post-list">
+  {% for post in book_posts %}
+  <li class="post-item">
+    <a href="{{ post.url | relative_url }}" class="post-link">
+      <h2 class="post-title">{{ post.title }}</h2>
+      <div class="post-meta">
+        <span class="post-date">📅 {{ post.date | date: "%Y-%m-%d" }}</span>
+        {% if post.tags.size > 0 %}
+        <div class="post-tags">
+          {% for tag in post.tags %}
+          <span class="tag-item">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<div class="no-results">
+  <p>还没有读书笔记，开始添加你的第一篇吧！</p>
+</div>
+{% endif %}
