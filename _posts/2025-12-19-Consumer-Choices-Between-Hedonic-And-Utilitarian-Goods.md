@@ -2,7 +2,7 @@
 title: "Consumer Choice Between Hedonic and Utilitarian Goods"
 date: 2025-12-19
 categories: [Decision Task, Hedonic and Utilitarian]
-tags: [Choice Task]
+tags: [Loss Aversion, Reference Point, Counterfactual, Prefactual]
 paper_info:
   authors: "RAVI DHAR.et.al"
   venue: "Journal of Marketing Research"
