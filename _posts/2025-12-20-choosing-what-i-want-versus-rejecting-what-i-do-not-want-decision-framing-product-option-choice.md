@@ -2,7 +2,7 @@
 title: "Choosing What I Want Versus Rejecting What I Do Not Want: An Application of Decision Framing to Product Option Choice Decisions"
 date: 2025-12-20
 categories: [Decision Task]
-tags: [Choice Task]
+tags: [Loss Aversion, Reference Point]
 paper_info:
   authors: "C. Whan Park,.et.al"
   venue: "Journal of Marketing Research"
