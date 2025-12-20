@@ -1,28 +1,35 @@
 ---
-title: "Consumer Choice Between Hedonic and Utilitarian Goods"
-date: 2025-12-19
-categories: [Decision Task, Hedonic and Utilitarian]
+title: "Choosing What I Want Versus Rejecting What I Do Not Want: An Application of Decision Framing to Product Option Choice Decisions"
+date: 2025-12-20
+categories: [Decision Task]
 tags: [Choice Task]
 paper_info:
-  authors: "RAVI DHAR.et.al"
+  authors: "C. Whan Park,.et.al"
   venue: "Journal of Marketing Research"
   year: 2000
-  link: "[https://doi-org.libezproxy.um.edu.mo/10.1509/jmkr.37.1.60.18718]"
+  link: "[https://doi-org.libezproxy.um.edu.mo/10.1509/jmkr.37.2.187.18731]"
 ---
 
-## A hedonic item is relatively preferred over the same utilitarian item in forfeiture choices than in acquisition choices. 
+## The subtractive option-framing presents consumers with a fully loaded product and asks them to delete options they do not want. The addictive option-framing) presents them with a base model and asks them to add the options they do want. Consumers tend to choose more options with a higher total option price when they use subtractive versus additive option framing. Although subtractive option framing offers strong advantages to managers when product commitment is high, it appears to demotivate category purchase when product commitment is low. 
 
 
 ## Research Background
 
-Consider consumers who may have to choose one of two options neither of which they currently own; alternatively, consider consumers who may have to forfeit one of two options, both of which they
-currently own. Hedonic attributes will be weighed more heavily in relative terms when consumers are deciding which one of two options to give up as opposed to which one of two options to acquire.
+
 
 ## Theory Development
 
-<span style="color: red; font-weight: bold">Hedonic goods</span>: as ones whose consumption is primarily characterized by an affective and sensory experience of aesthetic or sensual pleasure, fantasy, and fun.
+<span style="color: red; font-weight: bold">Subtractive option-framing</span>: Subjects are asked to delete undesired product options from a fully loaded model (–OF, 顶配版进行减配).  In this case, the consumer’s problem is to anticipate a loss in utility by deleting options, though this loss is compensated by a lower price paid.
 
-<span style="color: red; font-weight: bold">Utilitarian goods</span>: are ones whose consumption is more cognitively driven, instrumental, and goal oriented and accomplishes a functional or practical task.
+<span style="color: red; font-weight: bold">Addictive option-framing</span>: Subjects are asked to add desired product options to a base model (+OF,基础款进行加配).
+In this case, the consumer’s problem is to anticipate expected gains in utility, though these gains are achieved through the loss of monetary resources (i.e., a
+higher purchase price).
+
+Two factors that differentiate –OF from +OF: 
+(1) **the vantage point** from which consumers start (e.g., the base model or the full model) and 
+(2) **the task** they are asked to perform (e.g., adding or deleting options). 
+
+
 
 **A choice (as opposed to rating) task** generally favors the option that is higher on the utilitarian dimension. 
 
