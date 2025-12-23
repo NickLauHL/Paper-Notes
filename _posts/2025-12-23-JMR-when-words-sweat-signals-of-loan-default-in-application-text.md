@@ -2,7 +2,7 @@
 title: "When Words Sweat: Identifying Signals for Loan Default in the Text of Loan Applications"
 date: 2025-12-23
 categories: [Text]
-tags: [, , Peer]
+tags: [Text mining, ]
 paper_info:
   authors: "Oded Netzer.et.al"
   venue: "Journal of Marketing Research"
@@ -12,17 +12,21 @@ paper_info:
 
 ## Borrowers, consciously or not, leave traces of their intentions, circumstances, and personality traits in the text they write when applying for a loan. This textual information has a substantial and significant ability to predict whether borrowers will pay back the loan.
 
-## Research Background
+## Research Question
 
-Text is indicative of people’s psychological states, traits, opinions, and situations
+Can the "soft data" (i.e., text borrowers write) in loan applications predict subsequent loan default?
 
-## Theory Clarification
+## Literaure Review AND Theoretical Development
 
+Text is indicative of people’s psychological states, traits, opinions, and situations.
+
+The relationship between personality traits, emotional states, and financial behavior. 
 
 
 ## Emperical
 
-<span style="text-decoration: underline; color: red">Regression Discontinuity</span>
+Text mining: tm package in R
+
 
 **Shock** Utilizing the rule of class assignment: When students apply to a program in this university, they must inform whether they prefer to start in the fall semester (referred `to as the “first class”) or in the spring (the “second class”). All applicants then take the entrance exam together. After the exam, every applicant’s score is made public, and the top-scoring applicants for each program are invited to join their preferred class. Since the two classes have the same size and the first class is oversubscribed, the class preference of lower-scoring students is ignored, and they can enroll only in the second class. This constraint on students’ class choice allows us to examine students who are similar in many ways but attend different classes with different peers.
 
@@ -36,9 +40,11 @@ In theory, students who are just above and just below the cutoff are very simila
 
 ## Findings
 
-**[1]** The last student in the first class is about 10 percentage points (p.p.) **less** likely to become a manager two years after their expected graduation than a similar student in the second class.
+**[1]** Loan requests written by defaulting borrowers are more likely to include words (or themes) related to the borrower’s family, financial and general hardship, mentions of God, mentions of the near future, pleading lenders for help, and using verbs in present and future tenses. 
 
-**[2]** Shortly after graduation, the last-in-class effect is primarily driven by the <span style="color: red; font-weight: bold">adverse</span> impact of a lower relative rank in the first class (versus the higher rank in the second class), which <span style="color: red; font-weight: bold">outweighs the positive effect </span> of a higher peer performance.
+**[2]** Our results suggest that defaulting loan requests are written in a manner consistent with the writing styles of extroverts and liars. 
+
+Shortly after graduation, the last-in-class effect is primarily driven by the <span style="color: red; font-weight: bold">adverse</span> impact of a lower relative rank in the first class (versus the higher rank in the second class), which <span style="color: red; font-weight: bold">outweighs the positive effect </span> of a higher peer performance.
 
 **[3]** Five years after the expected graduation, though, the negative ranking effect becomes smaller and insignificant, while the positive effect of peer performance persists.
 
