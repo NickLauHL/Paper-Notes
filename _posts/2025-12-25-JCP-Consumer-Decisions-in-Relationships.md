@@ -24,6 +24,7 @@ It is based on a statistical technique known as the Actor-Partner Interdependenc
 
 <span style="color: red; font-weight: bold">Major theories in relationship science</span>
 
+```text
 **Attachment Theory** 
 
 Adult attachment orientations exist on two dimensions: **anxiety** and **avoidance**.
@@ -33,6 +34,7 @@ To achieve this, they try to accommodate and please their partners whenever poss
 
 Avoidantly attached individuals yearn to be self-reliant and independent. To achieve this, they establish and maintain comfortable psychological and emotional distance from their romantic partners and, 
 consequently, view relationships as a less central part of their lives and social identities
+```
 
 **Interdependence Theory**
 
@@ -58,5 +60,9 @@ Social power stems from one or more of six sources:
 Relationships differ in the rules that partners use when **giving and receiving benefits**. 
 
 In **communal relationships**, which include those between parents and child, most close family members, and many long-term relationships between close friends or romantic partners, partners do not keep track of the benefits they give to and receive from each other, at least over short time-periods. Instead, each partner offers benefits in response to the immediate needs of his or her partner, following communal sharing principles.
+
+In **exchange relationships**, which include those between strangers, business partners, new friends, or new romantic partners, each partner keeps tabs of the benefits he or she has given and received and attempts to repay his/her partner in kind as soon as possible.
+
+**Relationship norms**
 
 
