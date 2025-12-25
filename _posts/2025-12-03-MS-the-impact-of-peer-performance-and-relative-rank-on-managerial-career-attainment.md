@@ -13,16 +13,16 @@ paper_info:
 ## Comparing the last student admitted to the high-score class (the “first class”) with the first student excluded from this class, who joins the “second class.” Results show that the last student in the first class is 10 percentage points less likely to attain a managerial position soon after graduating than a similar student in the second class. And this effect is initially similar between genders, it diminishes for men over time while persisting for women.
 
 
-## Research Background
+## Research Question
 
 Many factors influence the likelihood of an individual attaining a managerial position. This paper examine how a low rank in a high-performing class versus a high rank in a low-performing class affects a student’s likelihood of attaining a future managerial position.
 
 
-## Theory Clarification
+## Literature Review And Theoretical Development
+/
 
 
-
-## Emperical
+## Empirical
 
 <span style="text-decoration: underline; color: red">Regression Discontinuity</span>
 
