@@ -13,12 +13,12 @@ paper_info:
 ## A hedonic item is relatively preferred over the same utilitarian item in forfeiture choices than in acquisition choices. 
 
 
-## Research Background
+## Research Question
 
 Consider consumers who may have to choose one of two options neither of which they currently own; alternatively, consider consumers who may have to forfeit one of two options, both of which they
 currently own. Hedonic attributes will be weighed more heavily in relative terms when consumers are deciding which one of two options to give up as opposed to which one of two options to acquire.
 
-## Theory Development
+## Literature Review And Theoretical Development
 
 <span style="color: red; font-weight: bold">Hedonic goods</span>: as ones whose consumption is primarily characterized by an affective and sensory experience of aesthetic or sensual pleasure, fantasy, and fun.
 
@@ -31,7 +31,7 @@ currently own. Hedonic attributes will be weighed more heavily in relative terms
 <span style="color: red; font-weight: bold">Such differential spontaneous elaboration in the forfeiture choice condition enhances the relative valuation of hedonic attributes.</span>: elaboration increases the influence of more easily imaginable attributes on product evaluations, making them more salient. To the extent that **hedonic attributes are more sensory and imagery-evoking** (MacInnis and Price 1987), the relative attractiveness of an item that is superior on the hedonic dimension should thus be enhanced. And upward prefactual thinking induces negative emotions, because one is about to be worse off than before. Respondents may be motivated to **minimize the anticipated negative emotions** by retaining the more hedonic good.
 
 
-## Emperical
+## Empirical
 
 Goal of Experiment 3
 To test whether the “forfeiture vs. acquisition” effect can be created without actual ownership, purely by changing the reference option (i.e., what the participant currently has).
@@ -70,4 +70,5 @@ In each scenario, participants were asked to choose between two options:
 	•	Option f: better utilitarian / worse hedonic
 	•	Option h: better hedonic / worse utilitarian
 
-
+## Findings
+/
