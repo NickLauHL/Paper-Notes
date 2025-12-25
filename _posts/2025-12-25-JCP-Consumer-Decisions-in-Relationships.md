@@ -1,5 +1,5 @@
 ---
-title: "Consumer decisions in relationships"
+title: "Consumer Decisions in Relationships"
 date: 2025-12-25
 categories: [Joint Decision Making]
 tags: [Relationship Theory, Dyadic Model]
@@ -25,9 +25,9 @@ It is based on a statistical technique known as the Actor-Partner Interdependenc
 <span style="color: red; font-weight: bold">Major theories in relationship science</span>
 
 ```text
-**Attachment Theory** 
+Attachment Theory
 
-Adult attachment orientations exist on two dimensions: **anxiety** and **avoidance**.
+Adult attachment orientations exist on two dimensions: anxiety and avoidance.
 
 Anxiously attached individuals want greater emotional closeness and more felt security with their romantic partners. 
 To achieve this, they try to accommodate and please their partners whenever possible, but worry that their partners do not really love them and might leave them.
@@ -36,7 +36,8 @@ Avoidantly attached individuals yearn to be self-reliant and independent. To ach
 consequently, view relationships as a less central part of their lives and social identities
 ```
 
-**Interdependence Theory**
+```text
+Interdependence Theory
 
 According to Interdependence Theory, people become dependent on their partners when partners provide them with **unique benefits ((e.g., large amounts of love, companionship, status, or money)** that other people cannot or do not provide. 
 Relationship partners can also both be highly dependent on each other (both provide each other with unique benefits (e.g., love, companionship) that no other potential partner can match).
@@ -44,25 +45,56 @@ Relationship partners can also both be highly dependent on each other (both prov
 Interdependence Theory offers two additional insights into how individuals evaluate their relationships, both of which have important implications for consumer decision-making. 
 First, individuals evaluate the degree to which **they are getting what they believe they “deserve”** in their relationship, which reflects their comparison level (Thibaut & Kelley, 1959).For example, if Mary starts receiving more attention from other attractive men, she is likely to increase her standards of the outcomes she thinks she deserves in her relationship with John. 
 Second, individuals also evaluate the quality of their **current alternative partner and relationship options**, known as the comparison level for alternatives.
+```
 
-**Social power**
+```text
+Social power
 
 Social power stems from one or more of six sources: 
-**coercion** (controlling others by threatening to punish them), 
-**reward** (control by promising rewards), 
-**legitimacy** (control by the higher authority, role, or position one holds), 
-**expertise** (control by having superior knowledge or information), 
-**credibility** (control by the truthfulness and accuracy of information one has), and 
-**referent** (control by expressing personal acceptance or social approval to others).
+coercion (controlling others by threatening to punish them), 
+reward (control by promising rewards), 
+legitimacy (control by the higher authority, role, or position one holds), 
+expertise (control by having superior knowledge or information), 
+credibility (control by the truthfulness and accuracy of information one has), and 
+referent (control by expressing personal acceptance or social approval to others).
+```
 
-**Communal and exchange relationships**
+```text
+Communal and exchange relationships
 
-Relationships differ in the rules that partners use when **giving and receiving benefits**. 
+Relationships differ in the rules that partners use when giving and receiving benefits. 
 
-In **communal relationships**, which include those between parents and child, most close family members, and many long-term relationships between close friends or romantic partners, partners do not keep track of the benefits they give to and receive from each other, at least over short time-periods. Instead, each partner offers benefits in response to the immediate needs of his or her partner, following communal sharing principles.
+In communal relationships, which include those between parents and child, most close family members, and many long-term relationships between close friends or romantic partners, partners do not keep track of the benefits they give to and receive from each other, at least over short time-periods. Instead, each partner offers benefits in response to the immediate needs of his or her partner, following communal sharing principles.
 
-In **exchange relationships**, which include those between strangers, business partners, new friends, or new romantic partners, each partner keeps tabs of the benefits he or she has given and received and attempts to repay his/her partner in kind as soon as possible.
+In exchange relationships, which include those between strangers, business partners, new friends, or new romantic partners, each partner keeps tabs of the benefits he or she has given and received and attempts to repay his/her partner in kind as soon as possible.
+```
 
-**Relationship norms**
+```text
+Relationship norms
 
+Such as
+Turn-taking norms, whereby the last partner who made a choice automatically defers to his or her partner the next time a similar choice is made
+Consensual agreements about how certain decisions should typically be made (Men: movies, women: restaurant choices)
+The partner who has the most knowledge or expertise about a given product typically makes the final decision.
+```
 
+```text
+Evolutionary perspectives
+
+An evolutionary perspective draws an important distinction between ultimate and proximate (immediate triggers (causes)) explanations for behavior.
+For exmaple, romantic relationship proximate reasons including sex, companionship, love, happiness, pleasure, resources, and support.
+ultimate reason: reproductive fitness
+
+courtship phase （恋爱初期）
+Rearing of children:
+Although Mary and John might both strongly prefer eating at a nice, quiet Italian restaurant, they may decide to go to a less desirable, loud, but child-friendly restaurant because they know their finicky child will eat some food there.
+```
+
+The limitation of dyadic model:
+From the evolutionary prespective, our general dyadic framework is not likely to capture all of the relevant decision-making constructs and processes that transpire when children enter the picture.
+
+## Empirical
+/
+
+## Findings
+/
