@@ -13,12 +13,12 @@ paper_info:
 ## Reviewers are less likely to post negative reviews early (e.g., when relatively new to a rating platform in their review history) due to concerns that doing so would make them appear as lacking warmth. This concern diminishes as the number of reviews associated with their profile increases, resulting in a discernable negative trend in ratings at the REVIEWER level. 
 
 
-## Research Background
+## Research Question
 
 Whether online ratings are a dispassionate source of information. In this regard, one source of potential bias are reviewers’ social motives. Past research has focused largely on reviewers’ desire to convey competence, however, the lack of scholarly attention directed at reviewers’ concerns with appearing warm reveals a gap in the literature.
 
 
-## Theory Development
+## Literature Review And Theoretical Development
 
 <span style="color: red; font-weight: bold">MUM (Minimizing Unpleasant Message)</span>: a phenomenon whereby people avoid sharing bad news involving the message recipient because they want to avoid dealing with the negative emotions it provokes.
 
@@ -33,7 +33,7 @@ normally judged by others **before** competence. People are concerned with conve
 
 
 
-## Emperical
+## Empirical
 
 <span style="color: red; font-weight: bold"> Archival data analysis (https://www.yelp.com/dataset)</span>
 
